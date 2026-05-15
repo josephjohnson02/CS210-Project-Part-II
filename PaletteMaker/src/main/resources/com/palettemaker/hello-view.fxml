@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.palettemaker.PaletteController">
+
+    <top>
+        <VBox spacing="10" styleClass="top-pane">
+
+            <HBox spacing="10">
+                <Label text="Base Color:"/>
+
+                <ColorPicker fx:id="colorPicker"/>
+
+<!--                <ComboBox fx:id="schemeBox" prefWidth="150"/>-->
+
+<!--                <Button text="Generate"-->
+<!--                        onAction="#generateSuggestions"/>-->
+
+                <Button text="Save Palette"
+                        onAction="#savePalette"/>
+
+                <Button text="Load Palette"
+                        onAction="#loadPalette"/>
+            </HBox>
+            <HBox spacing="10">
+
+                <Button fx:id="complementaryBtn"
+                        onAction="#selectComplementary"/>
+
+                <Button fx:id="analogousBtn"
+                        onAction="#selectAnalogous"/>
+
+                <Button fx:id="triadicBtn"
+                        onAction="#selectTriadic"/>
+
+            </HBox>
+
+        </VBox>
+    </top>
+
+    <center>
+        <VBox spacing="20" styleClass="main-pane">
+
+            <Label text="Suggestions"/>
+
+            <FlowPane fx:id="suggestionPane"
+                      hgap="10"
+                      vgap="10"/>
+
+            <Separator/>
+
+            <Label text="Current Palette"/>
+
+            <FlowPane fx:id="palettePane"
+                      hgap="10"
+                      vgap="10"/>
+
+        </VBox>
+    </center>
+
+</BorderPane>

@@ -1,0 +1,33 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #1e1e1e;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.top-pane {
+    -fx-padding: 20;
+    -fx-background-color: #2b2b2b;
+}
+
+.main-pane {
+    -fx-padding: 20;
+}
+
+.button {
+    -fx-background-radius: 10;
+}
+
+.combo-box {
+    -fx-background-radius: 10;
+}
+
+.selected-scheme {
+
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-border-radius: 10;
+}
