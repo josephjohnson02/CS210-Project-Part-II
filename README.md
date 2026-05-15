@@ -6,6 +6,8 @@ The goal of the project is to create a desktop application that is fast and easy
 
 Users are able to select a color, are given multiple options for other colors they can use with it, and can choose which ones to add until they’ve created a palette that is satisfactory for whatever its purpose may be.
 
+<img width="677" height="940" alt="image" src="https://github.com/user-attachments/assets/54beb287-a76f-48f6-9baa-3b9b094ae47d" />
+
 Initial Feature List:
 - Select a base color using a color picker
 - Generate visuals for matching color suggestions
@@ -15,4 +17,6 @@ Initial Feature List:
 - Refresh color suggestions based on current palette
 - Copy HEX values from colors in palette by clicking them
 - Save palettes to files
-- Load palettes from files\
+- Load palettes from files
+
+The Google Document with my process can be found [here]([url](https://docs.google.com/document/d/1I5_GaYPrHSiJt2zUAw4v7EJpJTHfc9pUCZpyF0nhuco/edit?usp=sharing)).
