@@ -19,4 +19,4 @@ Initial Feature List:
 - Save palettes to files
 - Load palettes from files
 
-The Google Document with my process can be found [here]((https://docs.google.com/document/d/1I5_GaYPrHSiJt2zUAw4v7EJpJTHfc9pUCZpyF0nhuco/edit?usp=sharing)).
+The Google Document with my process can be found here: https://docs.google.com/document/d/1I5_GaYPrHSiJt2zUAw4v7EJpJTHfc9pUCZpyF0nhuco/edit?usp=sharing
